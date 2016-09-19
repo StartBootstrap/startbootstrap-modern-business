@@ -247,14 +247,14 @@ a:focus {
 /* Footer area of masthead */
 .colophon {
   margin-top: 20px;
-  color: rgba(255,255,255,.5);
+  color: black;
 }
 .colophon-links {
   padding-left: 0;
   list-style: none;
 }
 .colophon-links li {
-  color: inherit;
+  color: blue;
 }
 
 /* Responsive masthead */
@@ -274,13 +274,12 @@ a:focus {
     margin-bottom: 0;
   }
   .masthead-inner {
-    position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
   }
   .masthead h1 {
-    font-size: 64px;
+    font-size: 30px;
   }
   .colophon {
     margin-top: 40px;

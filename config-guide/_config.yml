@@ -17,10 +17,10 @@ title: Website Configuration Guide!
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Everything you wanted to know about how to setup your website!
-baseurl: "/config-guide/config-guide/" # the subpath of your site, e.g. /blog
-url: "https://digitalscraps.github.io/config-guide/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username: ouweb
+github_username: digitalscraps
 # Build settings
 markdown: kramdown
 theme: minima
