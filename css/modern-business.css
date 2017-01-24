@@ -67,10 +67,19 @@ header.carousel .fill {
     font-style: italic;
 }
 
+.col-xs-3{
+    padding-left: 0;
+}
+
+.col-xs-3 li{
+    width: 100%; 
+    padding-left: 0;
+}
+
 /* Footer Styles */
 
 footer {
-    margin: 50px 0;
+    text-align: center;
 }
 
 /* Responsive Styles */
