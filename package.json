@@ -1,0 +1,38 @@
+{
+  "title": "Modern Business",
+  "name": "startbootstrap-modern-business",
+  "version": "4.0.0-alpha",
+  "description": "A multipurpose HTML website template built with Bootstrap",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "http://startbootstrap.com/template-overviews/modern-business",
+  "bugs": {
+    "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business/issues",
+    "email": "feedback@startbootstrap.com"
+  },
+  "license": "MIT",
+  "author": "Start Bootstrap",
+  "contributors": [
+    "David Miller (http://davidmiller.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business.git"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.11.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
