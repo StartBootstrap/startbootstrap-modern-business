@@ -1,0 +1,60 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+header{
+  color: #e6c300;
+}
+
+#footer{
+  color: #e6c300;
+}
+
+#feat{
+  vertical-align: middle;
+}
+
+#bot {
+  padding-top: 4px;
+}
+
+#Shannon{
+  height: 700px;
+  width: 700px;
+}
+
+#Brent{
+  height: 700px;
+  width: 700px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+body{
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('https://newevolutiondesigns.com/images/freebies/red-wallpaper-14.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
