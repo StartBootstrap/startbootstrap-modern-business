@@ -49,4 +49,4 @@ function watchFiles() {
 gulp.task("default", gulp.parallel('vendor'));
 
 // dev task
-gulp.task("dev", gulp.parallel(watchFiles, browserSync));
+gulp.task("watch", gulp.parallel(watchFiles, browserSync));
