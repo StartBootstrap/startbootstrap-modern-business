@@ -27,13 +27,25 @@ body {
 .navbar-office-info {
 	color: white;
 	text-align: right;
-	width
 }
 
 .main-doctor-img {
 	transform: rotate(5deg);
 	height: 270px;
 	width: 280px;
+}
+
+.office-hour-table th {
+	text-align: left; 
+	font-style: normal;
+}
+
+.office-hour-table td {
+	font-style: normal;
+}
+
+.homepage-footer {
+	font-style: normal;
 }
 
 /*------------------------------------About page Styles------------------------------------*/
