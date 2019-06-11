@@ -35,3 +35,12 @@ body {
 	height: 270px;
 	width: 280px;
 }
+
+/*------------------------------------About page Styles------------------------------------*/
+.doctor-img {
+	align-items: center;
+	height: 350px;
+	width: 350px;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
