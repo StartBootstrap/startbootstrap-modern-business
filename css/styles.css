@@ -45,8 +45,12 @@ body {
 	padding-bottom: 10px;
 }
 
-.request-form-header {
+.page-header-right {
 	text-align: right;
+}
+
+.page-header-left {
+	text-align: left;
 }
 
 /*------------------------------------Insurance page Styles------------------------------------*/
@@ -56,4 +60,20 @@ body {
 	width: 650px;
 	margin-left: 50px;
 	padding-bottom: 10px;
+}
+
+/*------------------------------------Services Portfolio page Styles------------------------------------*/
+.box-of-services {
+	display:inline-block;
+	flex-wrap: wrap;
+	padding: 0.75rem 9rem 0.75rem 9rem;
+	margin-bottom: 1rem;
+	background-color: #e9ecef;
+	border-radius: .25rem;
+	color: #36454f;
+	text-align: center;
+}
+
+.services-card-title {
+	color: #007bff;
 }
