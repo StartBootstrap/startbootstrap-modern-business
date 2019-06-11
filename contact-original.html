@@ -8,13 +8,13 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Town Square Dental | Contact Us</title>
+  <title>Modern Business - Start Bootstrap Template</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/styles.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
 
 </head>
 
@@ -23,7 +23,7 @@
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">TOWN SQUARE DENTAL</a>
+      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,35 +33,46 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="appointments.html">Appointments</a>
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Patient Info
+              Portfolio
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-              <a class="dropdown-item" href="new_patients.html">New Patients</a>
-              <a class="dropdown-item" href="insurances.html">Dental Insurance Plans</a>
-              <a class="dropdown-item" href="services.html">Dental Services</a>
-              <a class="dropdown-item" href="promotions.html">Dental Promotions</a>
+              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="reviews.html">Reviews</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Other Pages
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item" href="404.html">404</a>
+              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+            </div>
           </li>
         </ul>
-<!--         Optional Office Info for Navbar
-        <div class="navbar-office-info">
-          432 East 12300 South 
-          <br>Draper, Utah 84020
-          <br>(801) 553-2588
-        </div> -->
       </div>
     </div>
   </nav>
@@ -69,15 +80,53 @@
   <!-- Page Content -->
   <div class="container">
 
-    <br>
-
     <!-- Page Heading/Breadcrumbs -->
-    <h2 class="page-header-left">Have questions? We have the answers!</h2>
+    <h1 class="mt-4 mb-3">Contact
+      <small>Subheading</small>
+    </h1>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="index.html">Home</a>
+      </li>
+      <li class="breadcrumb-item active">Contact</li>
+    </ol>
+
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Map Column -->
+      <div class="col-lg-8 mb-4">
+        <!-- Embedded Google Map -->
+        <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+      </div>
+      <!-- Contact Details Column -->
+      <div class="col-lg-4 mb-4">
+        <h3>Contact Details</h3>
+        <p>
+          3481 Melrose Place
+          <br>Beverly Hills, CA 90210
+          <br>
+        </p>
+        <p>
+          <abbr title="Phone">P</abbr>: (123) 456-7890
+        </p>
+        <p>
+          <abbr title="Email">E</abbr>:
+          <a href="mailto:name@example.com">name@example.com
+          </a>
+        </p>
+        <p>
+          <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM
+        </p>
+      </div>
+    </div>
+    <!-- /.row -->
 
     <!-- Contact Form -->
     <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <div class="row">
       <div class="col-lg-8 mb-4">
+        <h3>Send us a Message</h3>
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="control-group form-group">
             <div class="controls">
@@ -106,41 +155,9 @@
           </div>
           <div id="success"></div>
           <!-- For success/fail messages -->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>&nbsp ** Send us a message and we will reply within one business day. **
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
         </form>
       </div>
-
-
-      <!-- Contact Right Margin -->
-      <div class="col-md-4 mb-5">
-        <h2>Contact Us</h2>
-        <address>
-          <strong>Town Square Dental</strong>
-          <br>432 East 12300 South 
-          <br>Draper, Utah 84020 
-          <br>
-        </address>
-        <address>
-          (801) 553-2588
-          <br>
-        </address>
-
-        <!-- Google Map-->
-        <div class="mapouter"><div class="gmap_canvas"><iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=432%20E%2012300%20S%20draper%20utah%2084020&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de"></a></div><style>.mapouter{position:relative;text-align:right;height:200px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:350px;}</style></div><br>
-        <!-- /.Google Map-->
-
-
-        <h2>Office Hours</h2>
-        <table class="office-hour-table">
-          <tr><th>Monday</th><td>&nbsp 9:00am - 5:00pm</td></tr>
-          <tr><th>Tuesday</th><td>&nbsp 9:00am - 6:00pm</td></tr>
-          <tr><th>Wednesday</th><td>&nbsp &nbsp &nbsp &nbsp &nbsp Closed</td></tr>
-          <tr><th>Thursday</th><td>&nbsp 9:00am - 6:00pm</td></tr>
-          <tr><th>Friday</th><td>&nbsp 9:00am - 5:00pm</td></tr>
-          <tr><th>Saturday</th><td>&nbsp 9:00am - 2:00pm</td></tr>
-        </table>
-      </div>
-      <!-- /.div for Contact Us right margin -->
 
     </div>
     <!-- /.row -->
@@ -151,7 +168,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Town Square Dental 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
     </div>
     <!-- /.container -->
   </footer>
