@@ -50,7 +50,6 @@ body {
 
 /*------------------------------------About page Styles------------------------------------*/
 .doctor-img {
-	align-items: center;
 	height: 350px;
 	width: 350px;
 	margin-left: 50px;
@@ -66,8 +65,16 @@ body {
 }
 
 /*------------------------------------Insurance page Styles------------------------------------*/
+.new-patients-image {
+	height: 350px;
+	width: 900px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*------------------------------------Insurance page Styles------------------------------------*/
 .insurance-img {
-	align-items: center;
 	height: 380px;
 	width: 650px;
 	margin-left: 50px;
