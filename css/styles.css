@@ -77,3 +77,16 @@ body {
 .services-card-title {
 	color: #007bff;
 }
+
+/*------------------------------------Promotions page Styles------------------------------------*/
+.promotions-subheading-center {
+	text-align: center;
+}
+
+.promo-coupon {
+	height: 400px;
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
