@@ -90,3 +90,34 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*------------------------------------Reviews page Styles------------------------------------*/
+.starting-quotes {
+	height: 20px;
+	width: 35px;
+	/*transform: rotate(10deg);*/
+}
+
+.ending-quotes {
+	height: 20px;
+	width: 35px;
+	transform: rotate(180deg);
+}
+
+.highlight-review {
+	font-style: italic;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.left-review {
+	text-align: left;
+}
+
+.right-review {
+	text-align: right;
+}
+
+.center-review {
+	text-align: center;
+}
