@@ -20,3 +20,31 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+/*All styling below done by cheliu*/
+
+/*------------------------------------Homepage Styles------------------------------------*/
+.navbar-office-info {
+	color: white;
+	text-align: right;
+	width
+}
+
+.main-doctor-img {
+	transform: rotate(5deg);
+	height: 270px;
+	width: 280px;
+}
+
+/*------------------------------------About page Styles------------------------------------*/
+.doctor-img {
+	align-items: center;
+	height: 350px;
+	width: 350px;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
+
+.request-form-header {
+	text-align: right;
+}
