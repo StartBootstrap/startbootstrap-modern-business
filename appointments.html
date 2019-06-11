@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Town Square Dental | Appointments</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">TOWN SQUARE DENTAL</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Appointments</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Patient Info
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="new_patients.html">New Patients</a>
+              <a class="dropdown-item" href="insurances.html">Dental Insurance Plans</a>
+              <a class="dropdown-item" href="services.html">Dental Services</a>
+              <a class="dropdown-item" href="promotions.html">Dental Promotions</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+<!--         Optional Office Info for Navbar
+        <div class="navbar-office-info">
+          432 East 12300 South 
+          <br>Draper, Utah 84020
+          <br>(801) 553-2588
+        </div> -->
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <br>
+    <h2 class="request-form-header">Appointment REQUEST FORM
+    </h2>
+
+    <!-- Content Row -->
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <h4>Schedule Your Appointment Today!</h4>
+        <p>You can call our office at (801) 552-2588 or complete the Appointment Request Form to schedule your appointment.</p>
+
+        <p>If this is an emergency or you need to cancel your appointment, please give us a call.</p><br>
+
+        <h4>New Patient?</h4>
+        <p>Complete <a href="new_patient.html">these steps</a> before requesting an appointment</p><br>
+
+        <h4>Office Hours</h4>
+        <table class="office-hour-table">
+          <tr><th>Monday</th><td>&nbsp 9:00am - 5:00pm</td></tr>
+          <tr><th>Tuesday</th><td>&nbsp 9:00am - 6:00pm</td></tr>
+          <tr><th>Wednesday</th><td>&nbsp &nbsp &nbsp &nbsp &nbsp Closed</td></tr>
+          <tr><th>Thursday</th><td>&nbsp 9:00am - 6:00pm</td></tr>
+          <tr><th>Friday</th><td>&nbsp 9:00am - 5:00pm</td></tr>
+          <tr><th>Saturday</th><td>&nbsp 9:00am - 2:00pm</td></tr>
+        </table>
+      </div>
+      <!-- /.div for Appointments left margin -->
+
+      <!-- Map Column -->
+      <div class="col-lg-8 mb-4">
+        
+        <!-- Contact Form -->
+        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Full Name:</label>
+              <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+              <p class="help-block"></p>
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Phone Number:</label>
+              <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Email Address:</label>
+              <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Preferred Day(s) of Week:</label>
+              <input type="text" class="form-control" id="dayofweek" required data-validation-required-message="Please enter your preferred day of week.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Preferred Time of Day (AM/PM):</label>
+              <input type="text" class="form-control" id="timeofday" required data-validation-required-message="Please enter your preferred time of day.">
+            </div>
+          </div>
+          <div class="control-group form-group">
+            <div class="controls">
+              <label>Reason for Appointment:</label>
+              <textarea rows="4" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your reason for appointment" maxlength="999" style="resize:none"></textarea>
+            </div>
+          </div>
+          <div id="success"></div>
+          <!-- For success/fail messages -->
+          <button type="submit" class="btn btn-primary" id="sendMessageButton">Request Appointment</button>
+          &nbsp ** Send us a request and we will reply within one business day. **
+        </form>
+      </div>
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Town Square Dental 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Contact form JavaScript -->
+  <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+</body>
+
+</html>
