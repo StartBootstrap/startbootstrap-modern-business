@@ -48,3 +48,12 @@ body {
 .request-form-header {
 	text-align: right;
 }
+
+/*------------------------------------Insurance page Styles------------------------------------*/
+.insurance-img {
+	align-items: center;
+	height: 380px;
+	width: 650px;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
