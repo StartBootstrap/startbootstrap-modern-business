@@ -23,10 +23,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <img style="max-width:100px; margin-top: -7px;"
-           src="https://i.imgur.com/iRa0avG.jpg">
-      <a class="navbar-brand" href="index.html">Intelligent Historical Document Image Analysis (IHDIA)
-
+      <img style="max-width:100px; margin-top: -7px;" src="https://i.imgur.com/iRa0avG.jpg" class="rounded float-left">
+      <a class="navbar-brand" href="index.html"> Intelligent Historical Document Image Analysis (IHDIA)
       </a>
       <!--button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -87,6 +85,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
@@ -114,20 +113,20 @@
           <img class="d-block mx-auto" src="https://i.imgur.com/vZxA3fK.png" />
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <!--a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
-      </a>
+      </a-->
     </div>
   </header>
  <hr>
   <!-- Page Content -->
-  <div class="container">
-
+  <div class="container" style="width: 750px; margin: 0 auto;">
+<div class="row-full">
     <h1 class="my-4"></h1>
 
     <!-- Marketing Icons Section -->
@@ -174,11 +173,11 @@
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="https://i.imgur.com/vZxA3fK.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="https://ihdia.github.io/indiscapes">Datasets</a>
             </h4>
+              <a href="#"><img class="card-img-top" src="https://i.imgur.com/vZxA3fK.png" alt=""></a>
             <p class="card-text">Given the large diversity in language, script and non-textual regional elements in historical Indic manuscripts, spatial layout parsing is crucial in enabling downstream applications such as OCR, word-spotting, style-and-content based retrieval and clustering.  We take a significant step to address this gap and introduce Indiscapes, the first dataset with layout annotations for historical Indic manuscripts.</p>
           </div>
           <div class="card-footer">
@@ -188,11 +187,11 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="https://i.imgur.com/qy3ZcTp.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="https://github.com/ihdia/instance-segmentation-v1">Layout Estimation Networks</a>
             </h4>
+            <a href="#"><img class="card-img-top" src="https://i.imgur.com/qy3ZcTp.png" alt=""></a>
             <p class="card-text">To succeed at layout parsing of manuscripts, we require a system which can accurately localize various types of regions (e.g. text lines, isolated character components, physical degradation, pictures, holes) and isolate individual instances of each region. To meet these requirements, we model our problem as one of semantic instance-level segmentation and introduce a deep-network based instance segmentation framework custom modified for fully automatic layout parsing.</p>
           </div>
           <div class="card-footer">
@@ -202,11 +201,11 @@
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="https://i.imgur.com/ESKKlHu.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Annotation and Analytics Systems</a>
             </h4>
+            <a href="#"><img class="card-img-top" src="https://i.imgur.com/ESKKlHu.png" alt=""></a>
             <p class="card-text">We propose a web-based layout annotation and analytics system. Our system, called Historic Indic Document Layout Analyzer (HInDoLA), features <a href="https://github.com/ihdia/hindola-backend">an intuitive annotation GUI</a>, <a href="https://github.com/ihdia/hindola-dash">a graphical analytics dashboard</a> and interfaces with machine-learning based intelligent modules on the backend. HInDoLA has successfully helped us create the first ever large-scale dataset for layout parsing of Indic palm-leaf manuscripts, which in turn has enabled us to train deep networks for fully automatic instance-level layout parsing. </p>
           </div>
           <!--div class="card-footer">
@@ -283,7 +282,7 @@
         <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
       </div>
     </div-->
-
+</div>
   </div>
   <!-- /.container -->
 

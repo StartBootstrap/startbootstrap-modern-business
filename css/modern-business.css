@@ -30,3 +30,13 @@
   width:auto;
 
 }
+.right.carousel-control, .left.carousel-control {
+    display: none;
+}
+
+.row-full{
+     width: 98vw;
+     position: relative;
+     margin-left: -49vw;
+     left: 50%;
+}
