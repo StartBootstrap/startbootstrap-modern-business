@@ -21,10 +21,10 @@
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="index.html">Intelligent Historical Document Image Analysis (IHDIA) </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <!--button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -73,7 +73,7 @@
             </div>
           </li>
         </ul>
-      </div>
+      </div-->
     </div>
   </nav>
 
@@ -85,26 +85,29 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block mx-auto" src="https://i.imgur.com/ESKKlHu.png" />
+        </div>
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
+        <!--div class="carousel-item active" style="background-image: url('https://i.imgur.com/ESKKlHu.png')">
+          < class="carousel-caption d-none d-md-block">
             <h3>First Slide</h3>
             <p>This is a description for the first slide.</p>
           </div>
-        </div>
+        </div-->
+
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
-          </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="https://i.imgur.com/qy3ZcTp.png" />
         </div>
+
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
-          </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="https://i.imgur.com/F6Am40E.png" />
+        </div>
+
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="https://i.imgur.com/vZxA3fK.png" />
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -117,19 +120,19 @@
       </a>
     </div>
   </header>
-
+ <hr>
   <!-- Page Content -->
   <div class="container">
 
-    <h1 class="my-4">IHDIA</h1>
+    <h1 class="my-4"></h1>
 
     <!-- Marketing Icons Section -->
-    <div class="row">
+    <!--div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
+          <h4 class="card-header">Datasets</h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+              <p class="card-text">Given the large diversity in language, script and non-textual regional elements in historical Indic manuscripts, spatial layout parsing is crucial in enabling downstream applications such as OCR, word-spotting, style-and-content based retrieval and clustering.  We take a significant step to address this gap and introduce Indiscapes, the first dataset with layout annotations for historical Indic manuscripts.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Learn More</a>
@@ -138,9 +141,9 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
+          <h4 class="card-header">Layout Estimation Networks</h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+            <p class="card-text"> To succeed at layout parsing of manuscripts, we require a system which can accurately localize various types of regions (e.g. text lines, isolated character components, physical degradation, pictures, holes) and isolate individual instances of each region. To meet these requirements, we model our problem as one of semantic instance-level segmentation and introduce a deep-network based instance segmentation framework custom modified for fully automatic layout parsing.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Learn More</a>
@@ -149,56 +152,65 @@
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
+          <h4 class="card-header">Annotation and Analytics Systems</h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <p class="card-text">We propose a web-based layout annotation and analytics system. Our system, called Historic Indic Document Layout Analyzer (HInDoLA), features an intuitive annotation GUI, a graphical analytics dashboard and interfaces with machine-learning based intelligent modules on the backend. HInDoLA has successfully helped us create the first ever large-scale dataset for layout parsing of Indic palm-leaf manuscripts, which in turn has enabled us to train deep networks for fully automatic instance-level layout parsing.</p>
           </div>
           <div class="card-footer">
             <a href="#" class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
-    </div>
+    </div-->
     <!-- /.row -->
 
     <!-- Portfolio Section -->
-    <h2>Portfolio Heading</h2>
+    <!--h2>Portfolio Heading</h2-->
 
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="https://i.imgur.com/vZxA3fK.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project One</a>
+              <a href="https://ihdia.github.io/indiscapes">Datasets</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">Given the large diversity in language, script and non-textual regional elements in historical Indic manuscripts, spatial layout parsing is crucial in enabling downstream applications such as OCR, word-spotting, style-and-content based retrieval and clustering.  We take a significant step to address this gap and introduce Indiscapes, the first dataset with layout annotations for historical Indic manuscripts.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://ihdia.github.io/indiscapes" class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="https://i.imgur.com/qy3ZcTp.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Two</a>
+              <a href="https://github.com/ihdia/instance-segmentation-v1">Layout Estimation Networks</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">To succeed at layout parsing of manuscripts, we require a system which can accurately localize various types of regions (e.g. text lines, isolated character components, physical degradation, pictures, holes) and isolate individual instances of each region. To meet these requirements, we model our problem as one of semantic instance-level segmentation and introduce a deep-network based instance segmentation framework custom modified for fully automatic layout parsing.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/ihdia/instance-segmentation-v1" class="btn btn-primary">Learn More</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="https://i.imgur.com/ESKKlHu.png" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
-              <a href="#">Project Three</a>
+              <a href="#">Annotation and Analytics Systems</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <p class="card-text">We propose a web-based layout annotation and analytics system. Our system, called Historic Indic Document Layout Analyzer (HInDoLA), features <a href="https://github.com/ihdia/hindola-backend">an intuitive annotation GUI</a>, <a href="https://github.com/ihdia/hindola-dash">a graphical analytics dashboard</a> and interfaces with machine-learning based intelligent modules on the backend. HInDoLA has successfully helped us create the first ever large-scale dataset for layout parsing of Indic palm-leaf manuscripts, which in turn has enabled us to train deep networks for fully automatic instance-level layout parsing. </p>
           </div>
+          <!--div class="card-footer">
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div-->
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+      <!--div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
           <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
           <div class="card-body">
@@ -231,11 +243,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div-->
     <!-- /.row -->
 
     <!-- Features Section -->
-    <div class="row">
+    <!--div class="row">
       <div class="col-lg-6">
         <h2>Modern Business Features</h2>
         <p>The Modern Business template by Start Bootstrap includes:</p>
@@ -253,20 +265,20 @@
       <div class="col-lg-6">
         <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
       </div>
-    </div>
+    </div-->
     <!-- /.row -->
 
     <hr>
 
     <!-- Call to Action Section -->
-    <div class="row mb-4">
+    <!--div class="row mb-4">
       <div class="col-md-8">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
       </div>
       <div class="col-md-4">
         <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
       </div>
-    </div>
+    </div-->
 
   </div>
   <!-- /.container -->
@@ -274,7 +286,7 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white"></p>
     </div>
     <!-- /.container -->
   </footer>
