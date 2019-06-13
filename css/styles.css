@@ -64,7 +64,7 @@ body {
 	text-align: left;
 }
 
-/*------------------------------------Insurance page Styles------------------------------------*/
+/*------------------------------------New Patients page Styles------------------------------------*/
 .new-patients-image {
 	height: 350px;
 	width: 900px;
@@ -74,9 +74,22 @@ body {
 }
 
 /*------------------------------------Insurance page Styles------------------------------------*/
+.insurance-page-description {
+	margin-bottom: 0rem;
+}
+
 .insurance-img {
 	height: 380px;
 	width: 650px;
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
+
+.insurances-list {
+	column-count: 2;
+}
+
+.credit-cards-list {
 	margin-left: 50px;
 	padding-bottom: 10px;
 }
