@@ -60,12 +60,8 @@ body {
 	padding-bottom: 10px;
 }
 
-.page-header-right {
-	text-align: right;
-}
-
-.page-header-left {
-	text-align: left;
+.about-header {
+	text-align: center;
 }
 
 /*------------------------------------New Patients page Styles------------------------------------*/
