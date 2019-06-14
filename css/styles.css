@@ -94,12 +94,6 @@ body {
 	margin-right: auto;
 }
 
-.payment-method-content {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .payment-method-header {
 	display: block;
 	text-align: right;
@@ -135,10 +129,11 @@ body {
 
 .promo-coupon {
 	height: 400px;
-	width: 600px;
+	width: 750px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 15px;
 }
 
 /*------------------------------------Reviews page Styles------------------------------------*/
