@@ -24,11 +24,6 @@ body {
 /*All styling below done by cheliu*/
 
 /*------------------------------------Homepage Styles------------------------------------*/
-.homepage-background-image {
-	background-image: url("homepage-background.png");
-	background-repeat: no-repeat;
-}
-
 .main-doctor-img {
 	transform: rotate(5deg);
 	height: 270px;
@@ -62,6 +57,11 @@ body {
 
 .about-header {
 	text-align: center;
+}
+
+/*------------------------------------Appointments page Styles------------------------------------*/
+.page-header-right {
+	text-align: right;
 }
 
 /*------------------------------------New Patients page Styles------------------------------------*/
