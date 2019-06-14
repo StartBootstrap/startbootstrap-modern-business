@@ -78,20 +78,38 @@ body {
 	margin-bottom: 0rem;
 }
 
-.insurance-img {
-	height: 380px;
-	width: 650px;
-	margin-left: 50px;
-	padding-bottom: 10px;
+.insurances-image {
+	max-width: 100%;
+	height: auto;
+	padding-bottom: 20px;
 }
 
 .insurances-list {
 	column-count: 2;
 }
 
+.insurance-notes {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.payment-method-content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.payment-method-header {
+	display: block;
+	text-align: right;
+}
+
 .credit-cards-list {
-	margin-left: 50px;
-	padding-bottom: 10px;
+	/*margin-left: -200px;*/
+	text-align: left;
+	margin-top: -10px;
+	display: block;
 }
 
 /*------------------------------------Services Portfolio page Styles------------------------------------*/
