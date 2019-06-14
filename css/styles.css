@@ -29,15 +29,14 @@ body {
 	background-repeat: no-repeat;
 }
 
-.navbar-office-info {
-	color: white;
-	text-align: right;
-}
-
 .main-doctor-img {
 	transform: rotate(5deg);
 	height: 270px;
 	width: 280px;
+}
+
+.homepage-header-content {
+	color: white;
 }
 
 .office-hour-table th {
