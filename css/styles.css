@@ -177,9 +177,6 @@ body {
 
 /*------------------------------------Sitemap page Styles------------------------------------*/
 .office-location-image {
-	height: 400px;
-	width: 600px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	height: 300px;
+	width: 400px;
 }
