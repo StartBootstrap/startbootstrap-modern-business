@@ -24,6 +24,11 @@ body {
 /*All styling below done by cheliu*/
 
 /*------------------------------------Homepage Styles------------------------------------*/
+.homepage-background-image {
+	background-image: url("homepage-background.png");
+	background-repeat: no-repeat;
+}
+
 .navbar-office-info {
 	color: white;
 	text-align: right;
@@ -67,7 +72,7 @@ body {
 /*------------------------------------New Patients page Styles------------------------------------*/
 .new-patients-image {
 	height: 350px;
-	width: 900px;
+	width: 1100px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
