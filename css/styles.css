@@ -109,6 +109,7 @@ body {
 /*------------------------------------Services Portfolio page Styles------------------------------------*/
 .box-of-services {
 	display:inline-block;
+	width: 100%;
 	flex-wrap: wrap;
 	padding: 0.75rem 9rem 0.75rem 9rem;
 	margin-bottom: 1rem;
@@ -120,6 +121,13 @@ body {
 
 .services-card-title {
 	color: #007bff;
+}
+
+.services-top-image {
+	width: 100%;
+	height: 230px;
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
 }
 
 /*------------------------------------Promotions page Styles------------------------------------*/
