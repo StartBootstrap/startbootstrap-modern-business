@@ -69,8 +69,10 @@ body {
 
 /*------------------------------------New Patients page Styles------------------------------------*/
 .new-patients-image {
-	height: 350px;
-	width: 1100px;
+	/*height: 350px;
+	width: 1100px;*/
+	height: 40%;
+	width: 80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
