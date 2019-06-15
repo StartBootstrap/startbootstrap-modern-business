@@ -34,14 +34,14 @@ body {
 	color: white;
 }
 
-.office-hour-table th {
+/*.office-hour-table th {
 	text-align: left; 
 	font-style: normal;
 }
 
 .office-hour-table td {
 	font-style: normal;
-}
+}*/
 
 .homepage-footer {
 	font-style: normal;
@@ -49,10 +49,13 @@ body {
 
 /*------------------------------------About page Styles------------------------------------*/
 .doctor-img {
-	height: 350px;
+	/*height: 350px;
 	width: 350px;
-	margin-left: 50px;
-	padding-bottom: 10px;
+	margin-left: 50px;*/
+	height: 100%;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 .about-header {
