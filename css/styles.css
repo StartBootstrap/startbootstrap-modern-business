@@ -216,10 +216,21 @@ body {
 }
 
 /*------------------------------------Sitemap page Styles------------------------------------*/
+.sitemap-header {
+	color: #212529;
+	text-align: center;
+	font-size: 3rem;
+}
+
+#sitemap-links {
+	font-size: 1.25rem;
+	/*text-align: right;*/
+}
+
 .office-location-image {
-	height: 70%;
+	height: 90%;
 	width: 70%;
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
+	/*margin-right: auto;*/
 }
