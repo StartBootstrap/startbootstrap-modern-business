@@ -23,7 +23,26 @@ body {
 
 /*All styling below done by cheliu*/
 
+/*------------------------------------Overall Website Styles------------------------------------*/
+body {
+	background-color: #F8F8FF;
+}
+
+#navbar {
+	background-color: #212121;
+}
+
+#footer {
+	background-color: #212121;
+}
+
+
 /*------------------------------------Homepage Styles------------------------------------*/
+#homepage-background {
+	background-image: url('../images/homepage-dark-blue-background.jpeg');
+	background-size: 100%;
+}
+
 .main-doctor-img {
 	transform: rotate(5deg);
 	height: 270px;
@@ -32,6 +51,13 @@ body {
 
 .homepage-header-content {
 	color: white;
+}
+
+.homepage-box-images {
+	width: 100%;
+	height: 230px;
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
 }
 
 /*.office-hour-table th {
@@ -135,6 +161,10 @@ body {
 	height: 230px;
 	border-top-left-radius: calc(.25rem - 1px);
 	border-top-right-radius: calc(.25rem - 1px);
+}
+
+.test {
+	background-color: #424242;
 }
 
 /*------------------------------------Promotions page Styles------------------------------------*/
