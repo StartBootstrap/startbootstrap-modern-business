@@ -11,8 +11,8 @@
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
-      var dayofweek = $("textarea#dayofweek").val();
-      var timeofday = $("textarea#timeofday").val();
+      var dayofweek = $("input#dayofweek").val();
+      var timeofday = $("input#timeofday").val();
       var reasonforappt = $("textarea#reasonforappt").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
