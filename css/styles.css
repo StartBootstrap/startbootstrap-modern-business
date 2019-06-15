@@ -25,7 +25,7 @@ body {
 
 /*------------------------------------Overall Website Styles------------------------------------*/
 body {
-	background-color: #F8F8FF;
+	background-color: #F8F8F8;
 }
 
 #navbar {
@@ -60,6 +60,10 @@ body {
 	border-top-right-radius: calc(.25rem - 1px);
 }
 
+.homepage-footer {
+	font-style: normal;
+}
+
 /*.office-hour-table th {
 	text-align: left; 
 	font-style: normal;
@@ -69,10 +73,6 @@ body {
 	font-style: normal;
 }*/
 
-.homepage-footer {
-	font-style: normal;
-}
-
 /*------------------------------------About page Styles------------------------------------*/
 .doctor-img {
 	/*height: 350px;
@@ -81,7 +81,8 @@ body {
 	height: 100%;
 	width: 100%;
 	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 30px;
+	padding-right: 10px;
 }
 
 .about-header {
