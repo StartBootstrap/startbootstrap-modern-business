@@ -1,0 +1,5 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?smileymolar\.com
+RewriteRule ^(.*)$ https://www.smileymolar.com/$1 [R,L]
+ErrorDocument 404 /404.html
