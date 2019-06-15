@@ -98,9 +98,9 @@
         <br>
         <h2 class="page-header-right">APPOINTMENT Request Form</h2>
         
-        <!-- Contact Form -->
-        <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-        <form name="sentMessage" id="contactForm" novalidate>
+        <!-- Appointment Form -->
+        <!-- In order to set the email address and subject line for the appointment form go to the bin/appointment.php file. -->
+        <form name="sentMessage" id="appointmentForm" action="./mail/contact_me.php" method="POST" novalidate>
           <div class="control-group form-group">
             <div class="controls">
               <label>Full Name:</label>
@@ -135,7 +135,7 @@
           <div class="control-group form-group">
             <div class="controls">
               <label>Reason for Appointment:</label>
-              <textarea rows="4" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your reason for appointment" maxlength="999" style="resize:none"></textarea>
+              <textarea rows="4" cols="100" class="form-control" id="reasonforappt" required data-validation-required-message="Please enter your reason for appointment" maxlength="999" style="resize:none"></textarea>
             </div>
           </div>
           <div id="success"></div>
@@ -169,10 +169,10 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Contact form JavaScript -->
-  <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+  <!-- Appointment form JavaScript -->
+  <!-- Do not edit these files! In order to set the email address and subject line for the appointment form go to the bin/appointment.php file. -->
   <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <script src="js/appointment.js"></script>
 
 </body>
 

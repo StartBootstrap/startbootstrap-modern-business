@@ -76,7 +76,7 @@
     <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <div class="row">
       <div class="col-lg-8 mb-4">
-        <form name="sentMessage" id="contactForm" novalidate>
+        <form name="sentMessage" id="contactForm" action="./mail/contact_me.php" method="POST" novalidate>
           <div class="control-group form-group">
             <div class="controls">
               <label>Full Name:</label>
@@ -107,7 +107,6 @@
           <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>&nbsp ** Send us a message and we will reply within one business day. **
         </form>
       </div>
-
 
       <!-- Contact Right Margin -->
       <div class="col-md-4 mb-5">
