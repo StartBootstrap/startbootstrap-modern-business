@@ -1,0 +1,46 @@
+
+
+Header
+    - header background image - height as much as the header
+    - find better header / header background
+    - replace body background with body-bg.png
+
+Replace Signup with membership page
+    - Become a member (annual membership fee + benefits - discounted tickets to all events)
+    - Custom PayPal for Membership fee with option for annual recurring
+
+Either in Contact or "Keep in touch" menu:
+    - Subscribe to mailing list
+    - Join Whatsapp group
+    - facebook (?)
+
+Homepage:
+    - Call to action ("Register for sports day link")
+    - Call to action ("Register for Ugadi link")
+
+    - Upcoming event
+    - Samani va image (trim top and bottom) - centered
+
+
+
+About
+    - Objectives (image?) / Telugu
+    - Team play with images / overlay
+
+Events:
+    - Two tabs (Upcoming; Previous Events)
+    - Upcoming events - google form for registration
+    - Previous Events:
+        - Flyer, Photos for each event. Card + image carousal ?
+
+---
+
+Done:
+Navbar
+    navbar background color = maroon (done)
+    Reduce logo size (done)
+
+Footer:
+    - EIN ID. 
+    - background color - maroon
+    - Reduce size

@@ -3,20 +3,52 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+
 body {
-  padding-top: 56px;
+    padding-top: 56px;
+}
+
+
+/* Set a background image by replacing the URL below */
+
+
+/* background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;  */
+
+body {
+    background: url('../assets/images/body-bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 56px;
 }
 
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.bg-image-full {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.card {
+    background-color: lightyellow;
+}
+
+.card-header {
+    background-color: goldenrod;
 }
