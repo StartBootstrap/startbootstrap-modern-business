@@ -32,7 +32,13 @@
             </div>
         </div>
     </section>
-
+    <header>
+        <div class="container-fluid" style="background-image: url('assets/images/header-light-bg.png');height: 200px;">
+            <div class="container">
+                <img class="img-fluid rounded mb-1 center mb-lg-0" src="assets/images/header-light-fg.png" alt="">
+            </div>
+        </div>
+    </header>
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top" style="background-color: maroon;">
@@ -41,8 +47,8 @@
                 <img src="assets/images/ftcslogo-manam.png?text=FTCS-Manam" style="width:28px;height:30px; padding: 0;" alt="FTCS-Manam"> FTCS - Manam
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <!-- <a class="navbar-brand" href="index.html">FTCS-Manam</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -53,8 +59,8 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              About
-            </a>
+                            About
+                        </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                             <a class="dropdown-item" href="about.html#Objectives">Objectives</a>
                             <a class="dropdown-item" href="about.html#Team">Team</a>
@@ -78,7 +84,7 @@
         </div>
     </nav>
 
-    <header>
+    <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -117,22 +123,23 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </header>
+    </div>
 
 
     <!-- Page Content -->
     <section class="py-5">
         <div class="container">
-            <div class="row align-items-center my-2">
+            <img class="img-fluid rounded " src="http://placehold.it/1200x200" alt="">
+            <div class="row align-items-center p-1 my-2">
                 <div class="col-lg">
-                    <img class="img-fluid rounded mb-2 mb-lg-0" src="http://placehold.it/1200x200" alt="">
+                    <img class="img-fluid rounded " src="http://placehold.it/1200x200" alt="">
                 </div>
             </div>
 
             <!-- <h1 class="my-4">Welcome to Manam!</h1> -->
             <!-- <p></p> -->
             <div class="row">
-                <div class="col-lg-8 mb-2 pr-1">
+                <div class="col-lg-8 mb-2 p-1">
                     <div class="card h-100">
                         <h4 class="card-header">About</h4>
                         <div class="card-body">
@@ -147,12 +154,48 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-2 pl-1">
+                <div class="col-lg-4 mb-2 p-1">
                     <div class="card h-100">
                         <h4 class="card-header">Sponsors</h4>
                         <div class="card-body">
-                            <p class="card-text">Coming soon...
-                            </p>
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner" role="listbox">
+                                    <!-- Slide One - Set the background image for this slide in the line below -->
+                                    <div class="carousel-item active" style="background-image: url('http://placehold.it/300x300')">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h3>First Slide</h3>
+                                            <p>This is a description for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                                    <div class="carousel-item" style="background-image: url('http://placehold.it/300x300')">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h3>Second Slide</h3>
+                                            <p>This is a description for the second slide.</p>
+                                        </div>
+                                    </div>
+                                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                                    <div class="carousel-item" style="background-image: url('http://placehold.it/300x300')">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h3>Third Slide</h3>
+                                            <p>This is a description for the third slide.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                         </div>
                         <!-- <div class="card-footer">
                         <a href="#" class="btn btn-primary">Learn More</a>
@@ -260,14 +303,20 @@
             <hr>
 
             <!-- Call to Action Section -->
-            <div class="row mb-4">
-                <div class="col-md-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-                </div>
-                <div class="col-md-4">
-                    <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+            <div class="card mb-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-8">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <img class="img-fluid" src="assets/images/samaniva-sm.png" alt="Samani-Va">
 
         </div>
         <!-- /.container -->
@@ -276,7 +325,8 @@
     <!-- Footer -->
     <footer class="py-2">
         <div class="footer-copyright text-center py-2" style="background-color: maroon;">
-            <p class="m-0 text-center text-white small">Florida Telugu Cultural Society is a non-profit, 501(c)(3), tax exempt organization (EIN: 82-0749607). We are not affiliated or associated with any other association.</p>
+            <p class="m-0 text-center text-white small">Florida Telugu Cultural Society is a non-profit, 501(c)(3), tax exempt organization (EIN: 82-0749607). We are not affiliated or associated with any other association.
+            </p>
             <!-- <div class="container">
                 <p class="m-0 text-center text-white">Florida Telugu Cultural Society is a non-profit, 501(c)(3), tax exempt organization. We are not affiliated or associated with any other association.</p>
             </div> -->

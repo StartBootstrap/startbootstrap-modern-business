@@ -15,7 +15,7 @@ body {
 /* background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;  */
 
 body {
-    background: url('../assets/images/body-bg.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/body-bg.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -23,8 +23,39 @@ body {
     padding-top: 56px;
 }
 
+
+/* Here's the trick */
+
+
+/* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--image-url) center center; */
+
+
+/* body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/body-bg.png") center center;
+    background-size: cover;
+    color: white;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+/* body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/body-bg.png") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 56px;
+} */
+
 .carousel-item {
-    height: 65vh;
+    /* height: 65vh; */
     min-height: 300px;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -50,5 +81,91 @@ body {
 }
 
 .card-header {
-    background-color: goldenrod;
+    background-color: maroon;
+    color: white
+}
+
+
+/* dl {
+    border: 3px double #ccc;
+    padding: 0.5em;
+} */
+
+dt {
+    float: left;
+    clear: left;
+    /* width: 100px; */
+    text-align: right;
+    font-weight: bold;
+    color: maroon;
+}
+
+dt::after {
+    content: ":";
+}
+
+
+/* dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+} */
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+.team {
+    background: lightgoldenrodyellow;
+    /* padding: 60px 0; */
+    padding: 1rem !important;
+}
+
+.team .member {
+    text-align: center;
+    margin-bottom: 1rem;
+    background: gainsboro;
+    position: relative;
+    overflow: hidden;
+}
+
+.team .member .member-info {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+}
+
+.team .member .member-info-content {
+    position: absolute;
+    left: 1rem;
+    right: 0;
+    bottom: 0;
+    transition: bottom 0.4s;
+}
+
+.team .member .member-info-content h5 {
+    /* font-weight: 700; */
+    margin-bottom: 2px;
+    color: #fff;
+}
+
+.team .member .member-info-content span {
+    font-style: italic;
+    display: block;
+    color: #fff;
+}
+
+.team .member:hover .member-info {
+    background: linear-gradient(0deg, rgba(78, 64, 57, 0.95) 0%, rgba(78, 64, 57, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.team .member:hover .member-info-content {
+    bottom: 1rem;
+    transition: bottom 0.4s;
 }

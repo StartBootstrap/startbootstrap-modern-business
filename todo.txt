@@ -44,3 +44,18 @@ Footer:
     - EIN ID. 
     - background color - maroon
     - Reduce size
+
+
+Notes:
+
+Card deck: equal size cards with less space in between
+        <div class="card-deck mb-3">
+            <div class="card mr-1">
+            </div>
+            <div class="card ml-2 mr-3 ">
+                <h4 class="card-header">Objectives - Telugu</h4>
+                <div class="card-body ">
+                    <p>Florida Telugu Cul</p>
+                </div>
+            </div>
+        </div>
