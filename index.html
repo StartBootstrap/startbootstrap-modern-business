@@ -19,25 +19,25 @@
 </head>
 
 <body>
-    <!-- <section class="py-5 bg-image-full" style="background-image: url('https://unsplash.it/1900/1080?image=1081');"> -->
-    <!-- <section class="py-5 bg-image-full" style="background-image: url('assets/images/header-bg.png');"> -->
-    <section class="py-5 bg-image-full" style="background-image: url('assets/images/header-light-bg.png');">
-        <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-        <!-- <div style="height: 200px;"></div> -->
-        <div class="container">
-            <div class="row align-items-center my-1">
-                <div class="col-lg">
-                    <img class="img-fluid rounded mb-1 center mb-lg-0" src="assets/images/header-light-fg.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+    <script>
+        $(document).ready(function() {
+            alert("ready");
+            $(".card").hover(function() {
+                $(this).addClass('shadow-lg').css('cursor', 'pointer');
+            }, function() {
+                $(this).removeClass('shadow-lg');
+            });
+        });
+    </script>
     <header>
-        <div class="container-fluid" style="background-image: url('assets/images/header-light-bg.png');height: 200px;">
-            <div class="container">
-                <img class="img-fluid rounded mb-1 center mb-lg-0" src="assets/images/header-light-fg.png" alt="">
-            </div>
-        </div>
+        <picture>
+            <source media="(max-width: 576px)" srcset="assets/images/header-576.png">
+            <source media="(max-width: 768px)" srcset="assets/images/header-768.png">
+            <source media="(max-width: 992px)" srcset="assets/images/header-992.png">
+            <source media="(max-width: 1200px)" srcset="assets/images/header-1200.png">
+            <source media="(min-width: 1201px)" srcset="assets/images/header-2560.png">
+            <img src="assets/images/header-2560.png">
+        </picture>
     </header>
 
     <!-- Navigation -->
@@ -84,62 +84,13 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>First Slide</h3>
-                        <p>This is a description for the first slide.</p>
-                    </div>
-                </div>
-                <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Second Slide</h3>
-                        <p>This is a description for the second slide.</p>
-                    </div>
-                </div>
-                <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h3>Third Slide</h3>
-                        <p>This is a description for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-
-
     <!-- Page Content -->
-    <section class="py-5">
+    <section class="py-3">
         <div class="container">
-            <img class="img-fluid rounded " src="http://placehold.it/1200x200" alt="">
-            <div class="row align-items-center p-1 my-2">
-                <div class="col-lg">
-                    <img class="img-fluid rounded " src="http://placehold.it/1200x200" alt="">
-                </div>
-            </div>
-
             <!-- <h1 class="my-4">Welcome to Manam!</h1> -->
             <!-- <p></p> -->
             <div class="row">
-                <div class="col-lg-8 mb-2 p-1">
+                <div class="col-lg-8 mb-2 pr-1">
                     <div class="card h-100">
                         <h4 class="card-header">About</h4>
                         <div class="card-body">
@@ -154,33 +105,33 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 mb-2 p-1">
+                <div class="col-lg-4 mb-2 pl-1">
                     <div class="card h-100">
                         <h4 class="card-header">Sponsors</h4>
                         <div class="card-body">
                             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                     <!-- Slide One - Set the background image for this slide in the line below -->
-                                    <div class="carousel-item active" style="background-image: url('http://placehold.it/300x300')">
+                                    <div class="carousel-item active" style="background-image: url('http://placehold.it/300x300'); max-height: 200px;">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>First Slide</h3>
                                             <p>This is a description for the first slide.</p>
                                         </div>
                                     </div>
                                     <!-- Slide Two - Set the background image for this slide in the line below -->
-                                    <div class="carousel-item" style="background-image: url('http://placehold.it/300x300')">
+                                    <div class="carousel-item" style="background-image: url('http://placehold.it/300x300'); max-height: 200px;">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>Second Slide</h3>
                                             <p>This is a description for the second slide.</p>
                                         </div>
                                     </div>
                                     <!-- Slide Three - Set the background image for this slide in the line below -->
-                                    <div class="carousel-item" style="background-image: url('http://placehold.it/300x300')">
+                                    <div class="carousel-item" style="background-image: url('http://placehold.it/300x300'); max-height: 200px;">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h3>Third Slide</h3>
                                             <p>This is a description for the third slide.</p>
@@ -206,80 +157,10 @@
             <!-- /.row -->
 
             <!-- Portfolio Section -->
-            <h2>Upcoming Events</h2>
-
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project One</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Two</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Three</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Four</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Five</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">
-                                <a href="#">Project Six</a>
-                            </h4>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
+            <h2 class="text-white">Upcoming Events</h2>
 
             <!-- Features Section -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-6">
                     <h2>Modern Business Features</h2>
                     <p>The Modern Business template by Start Bootstrap includes:</p>
@@ -297,26 +178,68 @@
                 <div class="col-lg-6">
                     <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
                 </div>
-            </div>
+            </div> -->
             <!-- /.row -->
 
-            <hr>
+            <hr/>
 
             <!-- Call to Action Section -->
             <div class="card mb-2">
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-8">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.
+                        <div class="col-md-9">
+                            Upcoming event: 5K run, games, food and fun on 3/7/2021.
                         </div>
-                        <div class="col-md-4">
-                            <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+                        <div class="col-md-3">
+                            <a class="btn btn-lg btn-primary btn-block" href="#">RSVP Now</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <img class="img-fluid" src="assets/images/samaniva-sm.png" alt="Samani-Va">
+            <section id="homepage_images">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <!-- Slide One - Set the background image for this slide in the line below -->
+                        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>First Slide</h3>
+                                <p>This is a description for the first slide.</p>
+                            </div>
+                        </div>
+                        <!-- Slide Two - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Second Slide</h3>
+                                <p>This is a description for the second slide.</p>
+                            </div>
+                        </div>
+                        <!-- Slide Three - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3>Third Slide</h3>
+                                <p>This is a description for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+
+            <br/>
+            <img class="img-fluid" src="assets/images/togetherness.png" alt="Samani-Va">
 
         </div>
         <!-- /.container -->

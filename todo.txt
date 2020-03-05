@@ -59,3 +59,28 @@ Card deck: equal size cards with less space in between
                 </div>
             </div>
         </div>
+
+Header image sizes:
+image - max content
+576 - may be 400
+768 - 750
+992 - 970
+1200 - 1170
+2560 - 1170
+
+Extra small devices (<768px): width: auto (or no width)
+Small Devices (≥768px): width: 750px
+Medium Devices (≥992px): width: 970px
+Larger Devices (≥1200px): width: 1170px
+
+References:
+Good example of cards: http://preview.graygrids.com/item/engage-bootstrap-4-multi-purpose-template/
+
+Old way of doing the header:
+    <header>
+        <div class="container-fluid" style="background-image: url('assets/images/header-light-bg.png');height: 200px;">
+            <div class="container">
+                <img class="img-fluid rounded mb-1 center mb-lg-0" src="assets/images/header-light-fg.png" alt="">
+            </div>
+        </div>
+    </header>
