@@ -43,6 +43,13 @@ body {
 	background-size: 100%;
 }
 
+.homepage-alert-banner {
+	padding: 20px;
+	background-color: orange;
+	color: white;
+	text-align: center;
+}
+
 .main-doctor-img {
 	transform: rotate(5deg);
 	height: 270px;
