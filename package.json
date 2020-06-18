@@ -1,7 +1,7 @@
 {
     "title": "Modern Business",
     "name": "startbootstrap-modern-business",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
@@ -16,7 +16,7 @@
     ],
     "homepage": "https://startbootstrap.com/template-overviews/modern-business",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business/issues",
+        "url": "https://github.com/StartBootstrap/startbootstrap-modern-business/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -26,15 +26,15 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business.git"
+        "url": "https://github.com/StartBootstrap/startbootstrap-modern-business.git"
     },
     "dependencies": {
-        "bootstrap": "4.3.1",
-        "jquery": "3.4.1"
+        "bootstrap": "4.5.0",
+        "jquery": "3.5.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.7",
-        "del": "^4.1.1",
+        "del": "5.1.0",
         "gulp": "4.0.2",
         "merge-stream": "2.0.0"
     }
