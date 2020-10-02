@@ -4,12 +4,12 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
+  padding-top: 60px;
 }
 
 .carousel-item {
   height: 65vh;
-  min-height: 300px;
+  min-height: 400px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -18,5 +18,5 @@ body {
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
