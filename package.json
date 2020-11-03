@@ -1,7 +1,7 @@
 {
     "title": "Modern Business",
     "name": "startbootstrap-modern-business",
-    "version": "4.2.2",
+    "version": "4.2.3",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
@@ -22,19 +22,19 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (https://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
         "url": "https://github.com/StartBootstrap/startbootstrap-modern-business.git"
     },
     "dependencies": {
-        "bootstrap": "4.5.0",
+        "bootstrap": "4.5.3",
         "jquery": "3.5.1"
     },
     "devDependencies": {
-        "browser-sync": "2.26.7",
-        "del": "5.1.0",
+        "browser-sync": "2.26.13",
+        "del": "6.0.0",
         "gulp": "4.0.2",
         "merge-stream": "2.0.0"
     }
