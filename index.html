@@ -38,50 +38,27 @@
             <source media="(min-width: 1201px)" srcset="assets/images/header-2560.png">
             <img src="assets/images/header-2560.png">
         </picture>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript">
+            window.onload = function () {
+                $.get("nav.html", function (data) {
+                    $("#common-navbar").html(data);
+                    // $('.navbar-nav').find('li:nth-child(2)')
+                    //     .addClass('active')
+                    //     .find('a').append('<span class="sr-only">(current)</span>');
+                });
+
+                $.get("footer.html", function (data) {
+                    $("#common-footer").html(data);
+                })
+            }
+        </script>
     </header>
 
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top" style="background-color: maroon;">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/ftcslogo-manam.png?text=FTCS-Manam" style="width:28px;height:30px; padding: 0;" alt="FTCS-Manam"> FTCS - Manam
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- <a class="navbar-brand" href="index.html">FTCS-Manam</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            About
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                            <a class="dropdown-item" href="about.html#Objectives">Objectives</a>
-                            <a class="dropdown-item" href="about.html#Team">Team</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="events.html">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="signup.html">Signup</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="donate.html">Donate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="common-header"></div>
 
     <!-- Page Content -->
     <section class="py-3">
@@ -244,20 +221,7 @@
         <!-- /.container -->
     </section>
     <!-- Footer -->
-    <footer class="pt-0">
-        <div class="footer-copyright text-center py-2" style="background-color: maroon;">
-            <p class="m-0 text-center text-white small">Florida Telugu Cultural Society is a non-profit, 501(c)(3), tax exempt organization (EIN: 82-0749607). We are not affiliated or associated with any other association.
-            </p>
-            <!-- <div class="container">
-                <p class="m-0 text-center text-white">Florida Telugu Cultural Society is a non-profit, 501(c)(3), tax exempt organization. We are not affiliated or associated with any other association.</p>
-            </div> -->
-            <!-- /.container -->
-        </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <div id="common-footer"></div>
 </body>
 
 </html>
