@@ -1,4 +1,26 @@
+New:
+- body-bg - reduce width so images show up completely (source in google slides admin@ftcsmanam.org)
+- Remove sponsors
+- Do we want a single events section with full list of all events in reverse chronological order (like portfolio or projects pages)
+- Change upcoming events to Recent Events?
+- Find images for top carousal 
+- 
 
+index:
+- Photos carousal to the top
+
+- tabs (tab titles in telugu) - short description, image: think about main content
+    - Sree rama Raksha (Spiritual)
+    - Neti Balalu (Kids)
+    - Kreedalu (Sports)
+    - Healthy Living
+    - Cultural
+
+
+
+-----
+older
+-----
 
 Header
     - header background image - height as much as the header
