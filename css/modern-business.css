@@ -8,7 +8,17 @@ body {
     padding-top: 56px;
 }
 
+.telugu {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 125%;
+    /* font-weight: bold; */
+}
 
+.teluguH4 {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 175%;
+    font-weight: bold;
+}
 /* Set a background image by replacing the URL below */
 
 
