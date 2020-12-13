@@ -169,9 +169,44 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-6">
-            <a href="#">
-              <img class="img-fluid rounded" src="http://placehold.it/750x300" alt="">
-            </a>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                  <!-- Slide One - Set the background image for this slide in the line below -->
+                  <div class="carousel-item active small-image" style="background-image: url('https://drive.google.com/uc?export=view&id=1noX_CuA6Q_EGqYeWpFz3T7ZyD9rEg5ca')">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h3>First Slide</h3>
+                          <p>This is a description for the first slide.</p>
+                      </div>
+                  </div>
+                  <!-- Slide Two - Set the background image for this slide in the line below -->
+                  <div class="carousel-item small-image" style="background-image: url('https://drive.google.com/uc?export=view&id=1nhaFimu7WQ111oXg7ZLU4_E_yhQnChFa')">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h3>Second Slide</h3>
+                          <p>This is a description for the second slide.</p>
+                      </div>
+                  </div>
+                  <!-- Slide Three - Set the background image for this slide in the line below -->
+                  <div class="carousel-item small-image" style="background-image: url('http://placehold.it/1900x1080')">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h3>Third Slide</h3>
+                          <p>This is a description for the third slide.</p>
+                      </div>
+                  </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+              </a>
+          </div>
           </div>
           <div class="col-lg-6">
             <h2 class="card-title">Post Title</h2>

@@ -76,9 +76,13 @@ header img {
     padding-top: 56px;
 } */
 
+.small-image {
+    min-height: 300px; 
+} 
+
 .carousel-item {
-    height: 65vh;
-    min-height: 300px;
+    height: 40vh;
+    min-height: 350px; 
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
