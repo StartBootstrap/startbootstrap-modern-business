@@ -16,6 +16,32 @@ index:
     - Healthy Living
     - Cultural
 
+Contact us form: https://docs.google.com/forms/d/1TeTZXzBR7e3zBDJqTyW7uV3Jy-xV_yzhHgcHGEMUiM8/edit
+
+Sports day album: https://photos.app.goo.gl/S2TASryJsgSMvaa27
+5K run photos: https://www.facebook.com/groups/569353890278847/permalink/627720554442180/
+
+Ganesha Summer Kids video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Au-Ys_ce9XQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Gameshow:
+Semifinals:
+https://www.facebook.com/100002478035506/videos/3932227296869833/
+https://www.facebook.com/100002478035506/videos/3931746516917911/
+
+Finals: https://www.facebook.com/100002478035506/videos/3953441931415036/
+
+
+Thankyou: https://www.facebook.com/100002478035506/videos/3954168284675734/
+
+
+Sample Bhagavadgita class: https://www.facebook.com/100002478035506/videos/3922423934516836/
+
+Geetotsavam: Intro: <iframe width="560" height="315" src="https://www.youtube.com/embed/kOl_nEDJzag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Contact Form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYrDpIPMU9W_HFEoHCiWrjZMjuMR9QhmOwCAlHU0aTWx3jYw/viewform?embedded=true" width="640" height="808" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+Filter: 
+$(".card").filter(function(){$(this).toggle(true)})
 
 
 -----

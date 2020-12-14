@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Florida Telugu Cultural Society - Manam</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mallanna&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation and title -->
+    <div id="common-navbar"></div>
+
+    <!-- Page Content -->
+    <section class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="card mb-2">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <h4>FTCS Manam relies on charitable contributions to run activities and conduct events
+                                    to bring our community together and promote our culture. Any contributions are
+                                    greatly appreciated!</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 p-2">
+                    <div class="card mb-5 h-100">
+                        <img class="card-img-top" src="assets/images/zelle.png" alt="Donate through Zelle">
+                        <div class="card-body text-center">
+                            <p class="card-text">Donate using Zelle from your bank account site/app to <h5 class="card-title">ftcsmanam@gmail.com</h5></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 p-2">
+                    <div class="card mb-5 h-100">
+                        <img class="card-img-top" src="assets/images/paypal2.png" alt="Donate through Paypal">
+                        <div class="card-body text-center">
+                            <!-- <h5 class="card-title">ftcsmanam@gmail.com</h5> -->
+                            <p class="card-text">Donate using Paypal by clicking on the below button:</p>
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                <input type="hidden" name="cmd" value="_s-xclick" />
+                                <input type="hidden" name="hosted_button_id" value="97V6ZTF2PLV3W" />
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                                </form>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Footer -->
+    <div id="common-footer"></div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            $.get("nav.html", function (data) {
+                $("#common-navbar").html(data);
+                // $('.navbar-nav').find('li:nth-child(2)')
+                //     .addClass('active')
+                //     .find('a').append('<span class="sr-only">(current)</span>');
+                $('#nav-donate').addClass('active'); //TBD for each page
+            });
+
+            $.get("footer.html", function (data) {
+                $("#common-footer").html(data);
+            })
+        }
+    </script>
+</body>
+
+</html>
