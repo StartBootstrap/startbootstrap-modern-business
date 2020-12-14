@@ -43,6 +43,25 @@ Contact Form: <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYrDpIPMU9W
 Filter: 
 $(".card").filter(function(){$(this).toggle(true)})
 
+$(".card").filter(function(){$(this).toggle($(this).data("filter").includes("cultural"));});
+$(".card").filter(function(){$(this).toggle($(this).data("filter").includes("all"));}); /* for all */
+
+$("#filter-all").removeClass("btn-primary").addClass("btn-success active");
+
+$("#filter-all").removeClass("btn-success active").addClass("btn-primary");
+
+var doFilter = function(category) {$(".card").filter(function(){$(this).toggle($(this).data("filter").includes(category));});;}
+$("#filter-sports").click(function(){doFilter($(this).data("filter"))});
+
+
+Paypal: Donate button:
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="97V6ZTF2PLV3W" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
 
 -----
 older
