@@ -115,6 +115,10 @@ header img {
     -o-background-size: cover;
 }
 
+.bg-yellow {
+    background-color: lightyellow;
+}
+
 .card {
     background-color: lightyellow;
 }
