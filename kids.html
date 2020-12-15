@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Florida Telugu Cultural Society - Manam</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mallanna&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation and title -->
+    <div id="common-navbar"></div>
+
+    <!-- Page Content -->
+    <section class="py-3">
+        <div class="container bg-yellow">
+            <blockquote class="blockquote text-center pt-3">
+                <p class="mb-0">Every child comes with the message that God is not yet discouraged of man.</p>
+                <footer class="blockquote-footer">Rabindranath Tagore</footer>
+            </blockquote>
+            <h1 class="text-center mb-3">FTCS Manam for Kids</h1>
+            <p>
+                We want to have a place where kids can come together and hangout with each other while doing some good
+                activities under adults supervision. A few activities we are currently conducting include practicing
+                Srimad Bhagavadgita, learning about Ganesha, Hanuman and slokas.
+            </p>
+            <p>We would like to help in the personality development of our kids by teaching them good
+                habits, values, social responsibility, self control, etc., We really appreciate all the help we can get
+                from our community.</p>
+            <p><a href="events.html?filter=kids">Some Recent activities can be seen here...</a></p>
+            <p class="pb-3">If you would like your kids to participate in the weekly virtual sessions to learn
+                Bhagavadgita verses (chanting and meanings), about Lord Hanuman and slokas, please contact us.</p>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Footer -->
+    <div id="common-footer"></div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            $.get("nav.html", function (data) {
+                $("#common-navbar").html(data);
+                // $('.navbar-nav').find('li:nth-child(2)')
+                //     .addClass('active')
+                //     .find('a').append('<span class="sr-only">(current)</span>');
+                $('#nav-about').addClass('active'); //TBD for each page
+            });
+
+            $.get("footer.html", function (data) {
+                $("#common-footer").html(data);
+            })
+        }
+    </script>
+</body>
+
+</html>

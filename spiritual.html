@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Florida Telugu Cultural Society - Manam</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mallanna&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation and title -->
+    <div id="common-navbar"></div>
+
+    <!-- Page Content -->
+    <section class="py-3">
+        <div class="container bg-yellow">
+            <blockquote class="blockquote text-center pt-3">
+                <p class="mb-0">You have to grow from the inside out. None can teach you, none can make you spiritual. There is no other teacher but your own soul.</p>
+                <footer class="blockquote-footer">Swami Vivekananda</footer>
+            </blockquote>
+            <h1 class="text-center mb-3">FTCS Manam - Spirituality</h1>
+            <p> A study group and <span class="font-italic">satsang</span> devised to be an instrument
+              in our spiritual journey, inspiring each other, sharing divine thoughts and enriching our knowledge and
+              understanding of Sanatana Dharma.
+            </p>
+            <p>In the process, we are planning on doing a systematic study. We will take up a few topics and read them over time and understand it. We can share our understanding and opinions here in this group about that topic. If any of your friends share similar interest please invite them to join in our group.</p>
+            <p>For the topics, we will start with 3 topics. We will do them simultaneously.</p>
+            <ol>
+                <li>
+                    Prasnottara Ratnamaalika by Adi Sankaraacharya
+                </li>
+                <li>
+                    Srimad Bhagavadgita
+                </li>
+                <li>
+                    Srimad Bhagavatham by Veda Vyasa
+                </li>
+            </ol>
+                <p>
+                Plan is... you can find material regarding the topic and study, understand and share your thoughts. We can help each other all the way. But it would be nice if you could take some time and study. At least half hour to one hour in a week. 
+                </p>
+            
+            <p class="pb-3">If you would like to participate, please contact us.</p>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Footer -->
+    <div id="common-footer"></div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            $.get("nav.html", function (data) {
+                $("#common-navbar").html(data);
+                // $('.navbar-nav').find('li:nth-child(2)')
+                //     .addClass('active')
+                //     .find('a').append('<span class="sr-only">(current)</span>');
+                $('#nav-about').addClass('active'); //TBD for each page
+            });
+
+            $.get("footer.html", function (data) {
+                $("#common-footer").html(data);
+            })
+        }
+    </script>
+</body>
+
+</html>
