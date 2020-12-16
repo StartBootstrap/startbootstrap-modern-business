@@ -39,6 +39,7 @@
                 <button class="btn btn-primary" id="filter-kids" data-filter="kids">Kids</button>
                 <button class="btn btn-primary" id="filter-spiritual" data-filter="spiritual">Spiritual</button>
                 <button class="btn btn-primary" id="filter-sports" data-filter="sports">Sports</button>
+                <button class="btn btn-primary" id="filter-upcoming" data-filter="upcoming">Upcoming</button>
             </div>
 
             <!-- Blog Post -->
@@ -68,6 +69,49 @@
         <a href="#">Start Bootstrap</a>
       </div>
     </div> -->
+
+    <!-- Blog Post -->
+    <div class="card mb-4" data-filter="kids,sports,upcoming">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-lg-6">
+                        <img class="img-fluid rounded" src="assets/images/chess/chess-sm.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="card-title">Chess Tournament</h2>
+                    <p class="card-text">Chess Tournament on.</p>
+                    <h4 class="text-center">December 27, 2020 at 11:00 am</h4>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer text-muted">
+            Posted on December 5, 2020
+        </div>
+    </div>
+
+            <!-- Blog Post -->
+            <div class="card mb-4" data-filter="spiritual,upcoming">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/kOl_nEDJzag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item"
+                                    src="https://www.youtube.com/embed/kOl_nEDJzag" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2 class="card-title">Geethotsavam</h2>
+                            <p class="card-text">Please join us to do a parayanam of Srimad Bhagavad Gita on zoom session. View the video here to get more details and signup here.</p>
+                            <p class="pb-3 text-center"><a href="#" class="font-size-lg">Geethotsam Signup Form</a></p>
+                            <h4 class="text-center">December 25, 2020 at 8:30 am</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                    Posted on December 5, 2020
+                </div>
+            </div>
 
             <!-- Blog Post -->
             <div class="card mb-4" data-filter="cultural">
@@ -130,12 +174,10 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            <a href="#">
                                 <div class="embed-responsive embed-responsive-16by9">
                                     <iframe class="embed-responsive-item"
                                         src="https://www.youtube.com/embed/Au-Ys_ce9XQ" allowfullscreen></iframe>
                                 </div>
-                            </a>
                         </div>
                         <div class="col-lg-6">
                             <h2 class="card-title">Summer Kids - Ganesha Presentation</h2>
@@ -372,14 +414,14 @@
         </div> -->
 
             <!-- Pagination -->
-            <ul class="pagination justify-content-center mb-4">
+            <!-- <ul class="pagination justify-content-center mb-4">
                 <li class="page-item">
                     <a class="page-link" href="#">&larr; Older</a>
                 </li>
                 <li class="page-item disabled">
                     <a class="page-link" href="#">Newer &rarr;</a>
                 </li>
-            </ul>
+            </ul> -->
 
         </div>
         <!-- /.container -->
@@ -405,23 +447,24 @@
     </script>
     <script>
         function filterBlog(category) {
-          $(".card").filter(function(){$(this).toggle($(this).data("filter").includes(category));});
+            $(".card").filter(function () { $(this).toggle($(this).data("filter").includes(category)); });
         }
         function handleFilterButton() {
-          if (this.id === $(".btn-success").attr("id")) {
-            return;
-          }
-          $(".btn-success").removeClass("btn-success active").addClass("btn-primary");
-          $(this).removeClass("btn-primary").addClass("btn-success active");
-          filterBlog($(this).data("filter"));
+            if (this.id === $(".btn-success").attr("id")) {
+                return;
+            }
+            $(".btn-success").removeClass("btn-success active").addClass("btn-primary");
+            $(this).removeClass("btn-primary").addClass("btn-success active");
+            filterBlog($(this).data("filter"));
         }
         $("#filter-all").click(handleFilterButton);
         $("#filter-cultural").click(handleFilterButton);
         $("#filter-kids").click(handleFilterButton);
         $("#filter-spiritual").click(handleFilterButton);
         $("#filter-sports").click(handleFilterButton);
-        
-      </script>
+        $("#filter-upcoming").click(handleFilterButton);
+
+    </script>
 </body>
 
 </html>

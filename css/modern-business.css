@@ -4,10 +4,6 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
-body {
-    padding-top: 56px;
-}
-
 .telugu {
     font-family: 'Mallanna', sans-serif;
     font-size: 125%;
@@ -96,7 +92,8 @@ header img {
 }
 
 .portfolio-item {
-    margin-bottom: 30px;
+    margin-bottom: 0.25rem;
+    padding: 0.25rem;
 }
 
 .jumbotron {
@@ -128,6 +125,9 @@ header img {
     color: white
 }
 
+.font-size-lg { 
+    font-size: 1.5rem; 
+}
 
 .card-hover {
     border-radius: 4px;
@@ -139,6 +139,14 @@ header img {
 .card-hover:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.9);
+}
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item .nav-link:active {
+    text-decoration: underline solid lightyellow 45%;
 }
 
 /* dl {

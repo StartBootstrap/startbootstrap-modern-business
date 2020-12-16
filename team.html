@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Florida Telugu Cultural Society - Manam</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Mallanna&family=Roboto&display=swap" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!-- Navigation and title -->
+    <div id="common-navbar"></div>
+        <!-- Page Content -->
+        <div class="container">
+            <!-- ======= Team Section ======= -->
+            <section id="team" class="team mt-3 mb-3">
+                <div class="container">
+                    <h2 class="text-center">Our Team</h2>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="member">
+                                <img src="http://placehold.it/200x200" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h5>One</h5>
+                                        <span>Specialist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="member">
+                                <img src="http://placehold.it/200x200" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h5>Two</h5>
+                                        <span>Specialist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="member">
+                                <img src="http://placehold.it/200x200" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h5>Three</h5>
+                                        <span>Specialist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="member">
+                                <img src="http://placehold.it/200x200" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h5>Four</h5>
+                                        <span>Specialist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="member">
+                                <img src="http://placehold.it/200x200" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h5>Five</h5>
+                                        <span>Specialist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="member">
+                                <img src="http://placehold.it/200x200" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h5>Six</h5>
+                                        <span>Specialist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+            <!-- End Team Section -->
+            <!-- /.row -->    
+        </div>
+    <!-- Footer -->
+    <div id="common-footer"></div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            $.get("nav.html", function (data) {
+                $("#common-navbar").html(data);
+                // $('.navbar-nav').find('li:nth-child(2)')
+                //     .addClass('active')
+                //     .find('a').append('<span class="sr-only">(current)</span>');
+                $('#nav-team').addClass('active'); //TBD for each page
+            });
+
+            $.get("footer.html", function (data) {
+                $("#common-footer").html(data);
+            })
+        }
+    </script>
+</body>
+</html>
