@@ -1,0 +1,123 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Modern Business - Start Bootstrap Template
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body
+
+        // Navigation
+        include includes/navbar.pug
+
+        // Page Content
+        section.py-5
+            .container
+
+                // Page Heading/Breadcrumbs
+                h1
+                    | Portfolio 1
+                    small Subheading
+                ol.breadcrumb.mb-4
+                    li.breadcrumb-item
+                        a(href='index.html') Home
+                    li.breadcrumb-item.active Portfolio 1
+
+                // Project One
+                .row
+                    .col-md-7
+                        a(href='#!')
+                            img.img-fluid.rounded.mb-3.mb-md-0(src='https://via.placeholder.com/700x300', alt='...')
+                    .col-md-5
+                        h2 Project One
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.
+                        a.btn.btn-primary(href='#!')
+                            | View Project
+
+                hr
+
+                // Project Two
+                .row
+                    .col-md-7
+                        a(href='#!')
+                            img.img-fluid.rounded.mb-3.mb-md-0(src='https://via.placeholder.com/700x300', alt='...')
+                    .col-md-5
+                        h2 Project Two
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.
+                        a.btn.btn-primary(href='#!')
+                            | View Project
+
+                hr
+
+                // Project Three
+                .row
+                    .col-md-7
+                        a(href='#!')
+                            img.img-fluid.rounded.mb-3.mb-md-0(src='https://via.placeholder.com/700x300', alt='...')
+                    .col-md-5
+                        h2 Project Three
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!
+                        a.btn.btn-primary(href='#!')
+                            | View Project
+
+                hr
+
+                // Project Four
+                .row
+                    .col-md-7
+                        a(href='#!')
+                            img.img-fluid.rounded.mb-3.mb-md-0(src='https://via.placeholder.com/700x300', alt='...')
+                    .col-md-5
+                        h2 Project Four
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?
+                        a.btn.btn-primary(href='#!')
+                            | View Project
+
+                hr
+
+                // Pagination
+                ul.pagination.justify-content-center
+                    li.page-item
+                        a.page-link(href='#!', aria-label='Previous')
+                            span(aria-hidden='true') «
+                            span.sr-only Previous
+                    li.page-item
+                        a.page-link(href='#!') 1
+                    li.page-item
+                        a.page-link(href='#!') 2
+                    li.page-item
+                        a.page-link(href='#!') 3
+                    li.page-item
+                        a.page-link(href='#!', aria-label='Next')
+                            span(aria-hidden='true') »
+                            span.sr-only Next
+
+        // Footer
+        footer.py-5.bg-dark
+            .container
+                p.m-0.text-center.text-white Copyright &copy; Your Website 2021
+
+        // Bootstrap core JS
+        script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')

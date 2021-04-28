@@ -1,0 +1,194 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Modern Business - Start Bootstrap Template
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body
+
+        // Navigation
+        include includes/navbar.pug
+
+        // Page header
+        header
+            #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+                ol.carousel-indicators
+                    li.active(data-target='#carouselExampleIndicators', data-slide-to='0')
+                    li(data-target='#carouselExampleIndicators', data-slide-to='1')
+                    li(data-target='#carouselExampleIndicators', data-slide-to='2')
+                .carousel-inner
+                    .carousel-item.active
+                        img.d-block.w-100(src='https://via.placeholder.com/1900x600', alt='...')
+                        .carousel-caption.d-none.d-md-block
+                            h3 First Slide
+                            p This is a description for the first slide.
+                    .carousel-item
+                        img.d-block.w-100(src='https://via.placeholder.com/1900x600', alt='...')
+                        .carousel-caption.d-none.d-md-block
+                            h3 Second Slide
+                            p This is a description for the second slide.
+                    .carousel-item
+                        img.d-block.w-100(src='https://via.placeholder.com/1900x600', alt='...')
+                        .carousel-caption.d-none.d-md-block
+                            h3 Third Slide
+                            p This is a description for the third slide.
+                a.carousel-control-prev(href='#carouselExampleIndicators', role='button', data-slide='prev')
+                    span.carousel-control-prev-icon(aria-hidden='true')
+                    span.sr-only Previous
+                a.carousel-control-next(href='#carouselExampleIndicators', role='button', data-slide='next')
+                    span.carousel-control-next-icon(aria-hidden='true')
+                    span.sr-only Next
+
+        // Page Content
+        section.py-5
+            .container
+                h1.mb-4 Welcome to Modern Business
+
+                // Marketing Icons Section
+                .row
+                    .col-lg-4.mb-4.mb-lg-0
+                        .card.h-100
+                            h4.card-header Card Title
+                            .card-body
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                            .card-footer
+                                a.btn.btn-primary(href='#!') Learn More
+                    .col-lg-4.mb-4.mb-lg-0
+                        .card.h-100
+                            h4.card-header Card Title
+                            .card-body
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.
+                            .card-footer
+                                a.btn.btn-primary(href='#!') Learn More
+                    .col-lg-4
+                        .card.h-100
+                            h4.card-header Card Title
+                            .card-body
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
+                            .card-footer
+                                a.btn.btn-primary(href='#!') Learn More
+
+        hr.my-0
+
+        // Portfolio Section
+        section.py-5.bg-light
+            .container
+                h2.mb-4 Portfolio Heading
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        .card.h-100
+                            a(href='#!')
+                                img.card-img-top(src='https://via.placeholder.com/700x400', alt='...')
+                            .card-body
+                                h4.card-title
+                                    a(href='#!') Project One
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!
+                    .col-lg-4.col-sm-6.mb-4
+                        .card.h-100
+                            a(href='#!')
+                                img.card-img-top(src='https://via.placeholder.com/700x400', alt='...')
+                            .card-body
+                                h4.card-title
+                                    a(href='#!') Project Two
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                    .col-lg-4.col-sm-6.mb-4
+                        .card.h-100
+                            a(href='#!')
+                                img.card-img-top(src='https://via.placeholder.com/700x400', alt='...')
+                            .card-body
+                                h4.card-title
+                                    a(href='#!') Project Three
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!
+                    .col-lg-4.col-sm-6.mb-4
+                        .card.h-100
+                            a(href='#!')
+                                img.card-img-top(src='https://via.placeholder.com/700x400', alt='...')
+                            .card-body
+                                h4.card-title
+                                    a(href='#!') Project Four
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                    .col-lg-4.col-sm-6.mb-4
+                        .card.h-100
+                            a(href='#!')
+                                img.card-img-top(src='https://via.placeholder.com/700x400', alt='...')
+                            .card-body
+                                h4.card-title
+                                    a(href='#!') Project Five
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.
+                    .col-lg-4.col-sm-6.mb-4
+                        .card.h-100
+                            a(href='#!')
+                                img.card-img-top(src='https://via.placeholder.com/700x400', alt='...')
+                            .card-body
+                                h4.card-title
+                                    a(href='#!') Project Six
+                                p.card-text
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.
+
+        hr.my-0
+
+        // Features Section
+        section.py-5
+            .container
+                .row
+                    .col-lg-6
+                        h2.mb-4 Modern Business Features
+                        p The Modern Business template by Start Bootstrap includes:
+                        ul
+                            li
+                                strong Bootstrap 4.6.0
+                            li jQuery 3.5.1
+                            li Font Awesome 5.15.3
+                            li Working PHP contact form with validation
+                            li Unstyled page elements for easy customization
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.
+                    .col-lg-6
+                        img.img-fluid.rounded(src='https://via.placeholder.com/700x450', alt='...')
+
+        hr.my-0
+
+        // Call to Action
+        aside.py-5.bg-light
+            .container
+                .row
+                    .col-md-8
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.
+                    .col-md-4
+                        a.btn.btn-lg.btn-secondary.btn-block(href='#!') Call to Action
+
+        // Footer
+        footer.py-5.bg-dark
+            .container
+                p.m-0.text-center.text-white Copyright &copy; Your Website 2021
+
+        // Bootstrap core JS
+        script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')

@@ -1,0 +1,157 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Modern Business - Start Bootstrap Template
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body
+
+        // Navigation
+        include includes/navbar.pug
+
+        // Page Content
+        section.py-5
+            .container
+
+                // Page Heading/Breadcrumbs
+                h1.mt-4.mb-3
+                    | Post Title
+                    small
+                        | by
+                        a(href='#!') Start Bootstrap
+                ol.breadcrumb
+                    li.breadcrumb-item
+                        a(href='index.html') Home
+                    li.breadcrumb-item.active Blog Home 2
+
+                .row
+
+                    // Post Content Column
+                    .col-lg-8
+
+                        // Preview Image
+                        img.img-fluid.rounded(src='https://via.placeholder.com/900x300' alt='...')
+                        hr
+                        // Date/Time
+                        p Posted on January 1, 2017 at 12:00 PM
+
+                        hr
+
+                        // Post Content
+                        p.lead
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!
+                        blockquote.blockquote
+                            p.mb-0
+                                | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+                            footer.blockquote-footer
+                                | Someone famous in
+                                cite(title='Source Title') Source Title
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?
+                        p
+                            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!
+                        hr
+
+                        // Comments Form
+                        .card.my-4
+                            h5.card-header Leave a Comment:
+                            .card-body
+                                form
+                                    .form-group
+                                        textarea.form-control(rows='3')
+                                    button.btn.btn-primary(type='submit') Submit
+
+                        // Single Comment
+                        .media.mb-4
+                            img.d-flex.mr-3.rounded-circle(src='https://via.placeholder.com/50x50', alt='...')
+                            .media-body
+                                h5.mt-0 Commenter Name
+                                | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+                        // Comment with nested comments
+                        .media.mb-4
+                            img.d-flex.mr-3.rounded-circle(src='https://via.placeholder.com/50x50', alt='...')
+                            .media-body
+                                h5.mt-0 Commenter Name
+                                | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                .media.mt-4
+                                    img.d-flex.mr-3.rounded-circle(src='https://via.placeholder.com/50x50', alt='...')
+                                    .media-body
+                                        h5.mt-0 Commenter Name
+                                        | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                .media.mt-4
+                                    img.d-flex.mr-3.rounded-circle(src='https://via.placeholder.com/50x50', alt='...')
+                                    .media-body
+                                        h5.mt-0 Commenter Name
+                                        | Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+                    // Sidebar Widgets Column
+                    .col-md-4
+
+                        // Search Widget
+                        .card.mb-4
+                            h5.card-header Search
+                            .card-body
+                                .input-group
+                                    input.form-control(type='text' placeholder='Search for...')
+                                    span.inpug-group-append
+                                        button.btn.btn-secondary(type='button') Go!
+
+                        // Categories Widget
+                        .card.mb-4
+                            h5.card-header Categories
+                            .card-body
+                                .row
+                                    .col-lg-6
+                                        ul.list-unstyled.mb-0
+                                            li
+                                                a(href='#!') Web Design
+                                            li
+                                                a(href='#!') HTML
+                                            li
+                                                a(href='#!') Freebies
+                                    .col-lg-6
+                                        ul.list-unstyled.mb-0
+                                            li
+                                                a(href='#!') JavaScript
+                                            li
+                                                a(href='#!') CSS
+                                            li
+                                                a(href='#!') Tutorials
+
+                        // Side Widget
+                        .card
+                            h5.card-header Side Widget
+                            .card-body
+                                | You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+
+        // Footer
+        footer.py-5.bg-dark
+            .container
+                p.m-0.text-center.text-white Copyright &copy; Your Website 2021
+
+        // Bootstrap core JS
+        script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
