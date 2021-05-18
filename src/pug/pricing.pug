@@ -13,76 +13,132 @@ html(lang='en')
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
-        // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+        include includes/css.pug
 
-        // Core theme CSS (includes Bootstrap)
-        link(href='css/styles.css', rel='stylesheet')
+    body.d-flex.flex-column
 
-    body
+        main.flex-shrink-0
 
-        // Navigation
-        include includes/navbar.pug
+            // Navigation
+            include includes/navbar.pug
 
-        // Page Content
-        section.py-5
-            .container
-                // Page Heading/Breadcrumbs
-                h1
-                    | Pricing
-                    small Subheading
-                ol.breadcrumb.mb-4
-                    li.breadcrumb-item
-                        a(href='index.html') Home
-                    li.breadcrumb-item.active Pricing
-
-                // Content Row
-                .row
-                    .col-lg-4.mb-4.mb-lg-0
-                        .card.h-100
-                            h3.card-header Basic
-                            .card-body
-                                .display-4 $19.99
-                                .font-italic per month
-                            ul.list-group.list-group-flush
-                                li.list-group-item Cras justo odio
-                                li.list-group-item Dapibus ac facilisis in
-                                li.list-group-item Vestibulum at eros
-                                li.list-group-item
-                                    a.btn.btn-primary(href='#') Sign Up!
-                    .col-lg-4.mb-4.mb-lg-0
-                        .card.card-outline-primary.h-100
-                            h3.card-header.bg-primary.text-white Plus
-                            .card-body
-                                .display-4 $39.99
-                                .font-italic per month
-                            ul.list-group.list-group-flush
-                                li.list-group-item Cras justo odio
-                                li.list-group-item Dapibus ac facilisis in
-                                li.list-group-item Vestibulum at eros
-                                li.list-group-item
-                                    a.btn.btn-primary(href='#') Sign Up!
-                    .col-lg-4
-                        .card.h-100
-                            h3.card-header Ultra
-                            .card-body
-                                .display-4 $159.99
-                                .font-italic per month
-                            ul.list-group.list-group-flush
-                                li.list-group-item Cras justo odio
-                                li.list-group-item Dapibus ac facilisis in
-                                li.list-group-item Vestibulum at eros
-                                li.list-group-item
-                                    a.btn.btn-primary(href='#') Sign Up!
+            // Pricing section
+            section.bg-light.py-5
+                .container.px-5.my-5
+                    .text-center.mb-5
+                        h1.fw-bolder Pay as you grow
+                        p.lead.fw-normal.text-muted.mb-0 With our no hassle pricing plans
+                    .row.gx-5.justify-content-center
+                        // Pricing card free
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-0
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold.text-muted Free
+                                    .mb-3
+                                        span.display-4.fw-bold $0
+                                        span.text-muted / mo.
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong 1 users
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | 5GB storage
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Unlimited public projects
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Community access
+                                        li.mb-2.text-muted
+                                            i.bi.bi-x
+                                            | Unlimited private projects
+                                        li.mb-2.text-muted
+                                            i.bi.bi-x
+                                            | Dedicated support
+                                        li.mb-2.text-muted
+                                            i.bi.bi-x
+                                            | Free linked domain
+                                        li.text-muted
+                                            i.bi.bi-x
+                                            | Monthly status reports
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='#!') Choose plan
+                        // Pricing card pro
+                        .col-lg-6.col-xl-4
+                            .card.mb-5.mb-xl-0
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold
+                                        i.bi.bi-star-fill.text-warning
+                                        | Pro
+                                    .mb-3
+                                        span.display-4.fw-bold $9
+                                        span.text-muted / mo.
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong 5 users
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | 5GB storage
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Unlimited public projects
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Community access
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Unlimited private projects
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Dedicated support
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Free linked domain
+                                        li.text-muted
+                                            i.bi.bi-x
+                                            | Monthly status reports
+                                    .d-grid
+                                        a.btn.btn-primary(href='#!') Choose plan
+                        // Pricing card enterprise
+                        .col-lg-6.col-xl-4
+                            .card
+                                .card-body.p-5
+                                    .small.text-uppercase.fw-bold.text-muted Enterprise
+                                    .mb-3
+                                        span.display-4.fw-bold $49
+                                        span.text-muted / mo.
+                                    ul.list-unstyled.mb-4
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Unlimited users
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | 5GB storage
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Unlimited public projects
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Community access
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Unlimited private projects
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            | Dedicated support
+                                        li.mb-2
+                                            i.bi.bi-check.text-primary
+                                            strong Unlimited
+                                            | linked domains
+                                        li.text-muted
+                                            i.bi.bi-check.text-primary
+                                            | Monthly status reports
+                                    .d-grid
+                                        a.btn.btn-outline-primary(href='#!') Choose plan
 
         // Footer
-        footer.py-5.bg-dark
-            .container
-                p.m-0.text-center.text-white Copyright &copy; Your Website 2021
+        include includes/footer.pug
 
-        // Bootstrap core JS
-        script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js')
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
-        script(src='js/scripts.js')
+        include includes/scripts.pug

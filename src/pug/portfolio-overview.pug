@@ -1,0 +1,58 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Modern Business - Start Bootstrap Template
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+        include includes/css.pug
+
+    body.d-flex.flex-column.h-100
+
+        main.flex-shrink-0
+
+            // Navigation
+            include includes/navbar.pug
+
+            // Page Content
+            section.py-5
+                .container.px-5.my-5
+                    .text-center.mb-5
+                        h1.fw-bolder Our Work
+                        p.lead.fw-normal.text-muted.mb-0 Company portfolio
+
+                    .row.gx-5
+                        .col-lg-6
+                            .position-relative.mb-5
+                                img.img-fluid.rounded-3.mb-3(src='https://dummyimage.com/600x400/343a40/6c757d', alt='...')
+                                a.h3.fw-bolder.text-decoration-none.link-dark.stretched-link(href='#!') Project name
+                        .col-lg-6
+                            .position-relative.mb-5
+                                img.img-fluid.rounded-3.mb-3(src='https://dummyimage.com/600x400/343a40/6c757d', alt='...')
+                                a.h3.fw-bolder.text-decoration-none.link-dark.stretched-link(href='#!') Project name
+                        .col-lg-6
+                            .position-relative.mb-5.mb-lg-0
+                                img.img-fluid.rounded-3.mb-3(src='https://dummyimage.com/600x400/343a40/6c757d', alt='...')
+                                a.h3.fw-bolder.text-decoration-none.link-dark.stretched-link(href='#!') Project name
+                        .col-lg-6
+                            .position-relative
+                                img.img-fluid.rounded-3.mb-3(src='https://dummyimage.com/600x400/343a40/6c757d', alt='...')
+                                a.h3.fw-bolder.text-decoration-none.link-dark.stretched-link(href='#!') Project name
+            
+            section.py-5.bg-light
+                .container.px-5.my-5
+                    h2.display-4.fw-bolder.mb-4 Let's build something together
+                    a.btn.btn-lg.btn-primary(href='#!') Contact us
+
+        // Footer
+        include includes/footer.pug
+
+        include includes/scripts.pug
