@@ -13,72 +13,39 @@ html(lang='en')
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
-        // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v5.15.3/js/all.js', crossorigin='anonymous')
+        include includes/css.pug
 
-        // Core theme CSS (includes Bootstrap)
-        link(href='css/styles.css', rel='stylesheet')
+    body.d-flex.flex-column.h-100
 
-    body
+        main.flex-shrink-0
 
-        // Navigation
-        include includes/navbar.pug
+            // Navigation
+            include includes/navbar.pug
 
-        // Page Content
-        section.py-5
-            .container
-                // Page Heading/Breadcrumbs
-                h1
-                    | Portfolio Item
-                    small Subheading
-                ol.breadcrumb.mb-4
-                    li.breadcrumb-item
-                        a(href='index.html') Home
-                    li.breadcrumb-item.active Portfolio Item
-
-                // Portfolio Item Row
-                .row
-                    .col-md-8
-                        img.img-fluid(src='https://via.placeholder.com/750x500', alt='...')
-                    .col-md-4
-                        h3.my-3 Project Description
-                        p
-                            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.
-                        h3.my-3 Project Details
-                        ul
-                            li Lorem Ipsum
-                            li Dolor Sit Amet
-                            li Consectetur
-                            li Adipiscing Elit
-
-        hr.my-0
-
-        // Related Projects Section
-        section.py-5.bg-light
-            .container
-                h2.mb-4 Related Projects
-                .row
-                    .col-md-3.col-sm-6.mb-4
-                        a(href='#!')
-                            img.img-fluid(src='https://via.placeholder.com/500x300', alt='...')
-                    .col-md-3.col-sm-6.mb-4
-                        a(href='#!')
-                            img.img-fluid(src='https://via.placeholder.com/500x300', alt='...')
-                    .col-md-3.col-sm-6.mb-4
-                        a(href='#!')
-                            img.img-fluid(src='https://via.placeholder.com/500x300', alt='...')
-                    .col-md-3.col-sm-6.mb-4
-                        a(href='#!')
-                            img.img-fluid(src='https://via.placeholder.com/500x300', alt='...')
+            // Page Content
+            section.py-5
+                .container.px-5.my-5
+                    .row.gx-5.justify-content-center
+                        .col-lg-6
+                            .text-center.mb-5
+                                h1.fw-bolder Project Title
+                                p.lead.fw-normal.text-muted.mb-0 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab similique, ducimus ut alias sit accusamus illum, asperiores deserunt dolorum quaerat qui! Ab, quisquam explicabo magni dolores unde beatae quam a.
+                    .row.gx-5
+                        .col-12
+                            img.img-fluid.rounded-3.mb-5(src='https://dummyimage.com/1300x700/343a40/6c757d', alt='...')
+                        .col-lg-6
+                            img.img-fluid.rounded-3.mb-5(src='https://dummyimage.com/600x400/343a40/6c757d', alt='...')
+                        .col-lg-6
+                            img.img-fluid.rounded-3.mb-5(src='https://dummyimage.com/600x400/343a40/6c757d', alt='...')
+                    .row.gx-5.justify-content-center
+                        .col-lg-6
+                            .text-center.mb-5
+                                p.lead.fw-normal.text-muted Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam deserunt architecto enim eos accusantium fugit recusandae illo iste dignissimos possimus facere ducimus odit voluptatibus exercitationem, ex laudantium illum voluptatum corporis.
+                                a.text-decoration-none(href='#!')
+                                    | View project
+                                    i.bi-arrow-right
 
         // Footer
-        footer.py-5.bg-dark
-            .container
-                p.m-0.text-center.text-white Copyright &copy; Your Website 2021
+        include includes/footer.pug
 
-        // Bootstrap core JS
-        script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js')
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
-        script(src='js/scripts.js')
+        include includes/scripts.pug
