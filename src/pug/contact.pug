@@ -36,19 +36,86 @@ html(lang='en')
                             p.lead.fw-normal.text-muted.mb-0 We'd love to hear from you
                         .row.gx-5.justify-content-center
                             .col-lg-8.col-xl-6
-                                form
+
+                                // * * * * * * * * * * * * * * *
+                                // * * SB Forms Contact Form * *
+                                // * * * * * * * * * * * * * * *
+
+                                // This form is pre-integrated with SB Forms.
+                                // To make this form functional, sign up at
+                                // https://startbootstrap.com/solution/contact-forms
+                                // to get an API token!
+
+                                form#contactForm(data-sb-form-api-token='API_TOKEN')
+
+                                    // Name input
                                     .form-floating.mb-3
-                                        input#inputName.form-control(type='text', placeholder='Enter your name...')
-                                        label(for='inputName') Full name
+                                        input#name.form-control(
+                                            type='text',
+                                            placeholder='Enter your name...'
+                                            data-sb-validations='required'
+                                        )
+                                        label(for='name') Full name
+                                        .invalid-feedback(data-sb-feedback='name:required')
+                                            | A name is required.
+                                    
+                                    // Email address input
                                     .form-floating.mb-3
-                                        input#inputEmail.form-control(type='email', placeholder='name@example.com')
-                                        label(for='inputEmail') Email address
+                                        input#email.form-control(
+                                            type='email',
+                                            placeholder='name@example.com'
+                                            data-sb-validations='required,email'
+                                        )
+                                        label(for='email') Email address
+                                        .invalid-feedback(data-sb-feedback='email:required')
+                                            | An email is required.
+                                        .invalid-feedback(data-sb-feedback='email:email')
+                                            | Email is not valid.
+                                    
+                                    // Phone number input
                                     .form-floating.mb-3
-                                        input#inputPhone.form-control(type='tel', placeholder='(123) 456-7890')
-                                        label(for='inputPhone') Phone number
+                                        input#phone.form-control(
+                                            type='tel',
+                                            placeholder='(123) 456-7890'
+                                            data-sb-validations='required'
+                                        )
+                                        label(for='phone') Phone number
+                                        .invalid-feedback(data-sb-feedback='phone:required')
+                                            | A phone number is required.
+                                    
+                                    // Message input
                                     .form-floating.mb-3
-                                        textarea#inputMessage.form-control(type='text', placeholder='Enter your message here...', style='height: 10rem;')
-                                        label(for='inputMessage') Message
+                                        textarea#message.form-control(
+                                            type='text',
+                                            placeholder='Enter your message here...',
+                                            style='height: 10rem;'
+                                            data-sb-validations='required'
+                                        )
+                                        label(for='message') Message
+                                        .invalid-feedback(data-sb-feedback='message:required')
+                                            | A message is required.
+
+                                    // Submit success message
+                                    //
+                                    // This is what your users will see when the form
+                                    // has successfully submitted
+                                    #submitSuccessMessage.d-none
+                                        .text-center.mb-3
+                                            .fw-bolder Form submission successful!
+                                            | To activate this form, sign up at
+                                            br
+                                            a(href='https://startbootstrap.com/solution/contact-form') https://startbootstrap.com/solution/contact-form
+
+                                    // Submit error message
+                                    //
+                                    // This is what your users will see when there is
+                                    // an error submitting the form
+                                    #submitErrorMessage.d-none
+                                        .text-center.text-danger.mb-3 Error sending message!
+
+                                    // Submit Button
+                                    .d-grid
+                                        button#submitButton.btn.btn-primary.btn-lg.disabled(type='submit') Submit
 
                     // Contact cards
                     .row.gx-5.row-cols-2.row-cols-lg-4.py-5
@@ -77,3 +144,10 @@ html(lang='en')
         include includes/footer.pug
 
         include includes/scripts.pug
+
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+        // * *                               SB Forms JS                               * *
+        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
+        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
